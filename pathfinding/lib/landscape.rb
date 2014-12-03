@@ -32,4 +32,8 @@ class Landscape
     x = row.index(element)
     [x,y]
   end
+
+  def at(x, y)
+    matrix[y][x]
+  end
 end
